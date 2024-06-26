@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sito Avanzato di Ricette Multimediali</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <header>
+        <h1>Lezioni di Cucina Avanzate</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a>
+                    <ul class="dropdown">
+                        <li><a href="#video">Video</a></li>
+                        <li><a href="#recipes">Ricette</a></li>
+                        <li><a href="#tips">Consigli</a></li>
+                    </ul>
+                </li>
+                <li><a href="#gallery">Galleria</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="video">
+            <h2>Guarda i nostri tutorial di cucina</h2>
+            <video controls autoplay loop muted width="640" height="360">
+                <source src="assets/video/intro.mp4" type="video/mp4">
+                Il tuo browser non supporta il video tag.
+            </video>
+        </section>
+        <section id="recipes">
+            <h2>Ricette Popolari</h2>
+            <article>
+                <img src="assets/immagini/pasta fredda.avif" alt="Pasta Deliziosa">
+                <h3>Pasta deliziosa</h3>
+                <p>Scopri come fare la pasta perfetta con pochi semplici passaggi.</p>
+            </article>
+        </section>
+        <section id="tips">
+            <h2>Consigli di Cucina</h2>
+            <p>Consigli utili per mantenere la tua cucina organizzata e funzionale.</p>
+        </section>
+        <section id="gallery">
+            <h2>Galleria di Immagini</h2>
+            <div>
+                <img src="assets/immagini/fragole.avif" alt="Vari piatti preparati">
+                <img src="assets/immagini/albicocche.jpeg" alt="Preparazione di dolci">
+                <img src="assets/immagini/salata.avif" alt="Insalata fresca e colorata">
+            </div>
+        </section>
+        <section id="faq">
+            <h2>FAQ</h2>
+            <dl>
+                <dt>Come conservo meglio gli ingredienti?</dt>
+                <dd>Conserva gli ingredienti in un luogo fresco e asciutto per mantenere la loro freschezza più a lungo.</dd>
+                <dt>Quali sono gli utensili essenziali per ogni cuoco?</dt>
+                <dd>Ogni cuoco dovrebbe avere un buon set di coltelli, padelle e pentole, e strumenti per la misurazione.</dd>
+            </dl>
+        </section>
+    </main>
+    <footer>
+        <p>Seguici sui social per nuove ricette ogni settimana! &copy; 2024 Sito di Lezioni di Cucina Avanzate.</p>
+    </footer>
+</body>
+</html>
